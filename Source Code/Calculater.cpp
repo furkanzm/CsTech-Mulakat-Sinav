@@ -4,11 +4,11 @@
 
 void Calculater::calculate()
 {
-    //Beyaz ta˛lar˝n tehdit olu˛turaca˝ durumlar 
+    //Beyaz ta√ælar√Ωn tehdit olu√æturaca√∞√Ω durumlar 
 
     for (ChessPiece* white : whites)
     {
-        if (white->getInfo() < 2)                                       // Piyon ve at kontorl¸
+        if (white->getInfo() < 2)                                       // Piyon ve at kontorl√º
         {
             vector<vector<Position>> positions = white->move();
             for (vector<Position> position_vector : positions)
@@ -25,7 +25,7 @@ void Calculater::calculate()
                 }
             }
         }
-        else if (white->getInfo() == 2)                                 // Vezir kontrol¸
+        else if (white->getInfo() == 2)                                 // Vezir kontrol√º
         {
             vector<vector<Position>> positions = white->move();
             bool cancel_move = false;
@@ -65,11 +65,11 @@ void Calculater::calculate()
     }
 
 
-    //Beyaz ta˛lar˝n tehdit olu˛turaca˝ durumlar 
+    //Beyaz ta√ælar√Ωn tehdit olu√æturaca√∞√Ω durumlar 
 
     for (ChessPiece* black : blacks)
     {
-        if (black->getInfo() < 2)                                                   // Piyon ve at kontorl¸
+        if (black->getInfo() < 2)                                                   // Piyon ve at kontorl√º
         {
             vector<vector<Position>> positions = black->move();
             for (vector<Position> position_vector : positions)
@@ -86,7 +86,7 @@ void Calculater::calculate()
                 }
             }
         }
-        else if (black->getInfo() == 2)                                            // Piyon ve at kontorl¸
+        else if (black->getInfo() == 2)                                            // Vezir kontorl√º
         {
             vector<vector<Position>> positions = black->move();
             bool cancel_move = false;
