@@ -1,7 +1,7 @@
 #include <iostream>
 #include "BoardCapturer.h" 
 #include "Calculater.h"
-#include <iomanip>
+
 
 int main() {
 	BoardCapturer capturer;
