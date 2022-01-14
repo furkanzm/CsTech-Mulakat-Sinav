@@ -4,7 +4,7 @@
 
 void Calculater::calculate()
 {
-    //Beyaz taþlarýn tehdit oluþturacaðý durumlar 
+    //Beyaz tasların tehdit olusturacagı durumlar 
 
     for (ChessPiece* white : whites)
     {
@@ -65,7 +65,7 @@ void Calculater::calculate()
     }
 
 
-    //Siyah taþlarýn tehdit oluþturacaðý durumlar 
+    //Siyah taslarin tehdit olusturacagi durumlar 
 
     for (ChessPiece* black : blacks)
     {
