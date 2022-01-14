@@ -65,7 +65,7 @@ void Calculater::calculate()
     }
 
 
-    //Beyaz taþlarýn tehdit oluþturacaðý durumlar 
+    //Siyah taþlarýn tehdit oluþturacaðý durumlar 
 
     for (ChessPiece* black : blacks)
     {
